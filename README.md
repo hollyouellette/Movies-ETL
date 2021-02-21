@@ -10,6 +10,12 @@ This repostory contains the following:
 
    1. A Resources folder containing the raw datasets that were gathered from Wikipedia and Kaggle.<br/>
    2. Four deliverables focused on Extracting, Transforming and Loading the multiple data sources into a SQL database so tha tthe Hackathon participants have a clean dataset to work with:<br><br/>
-        **Deliverable 1** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_function_test.ipynb/" target="_blank">ETL_function_test.ipynb</a>
-         This file contains a completed function that read in the three data files and creates three separate dataframes.
-
+        **Deliverable 1** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_function_test.ipynb/" target="_blank">ETL_function_test.ipynb</a> <br/>
+         This file contains a completed function that read in the three data files and creates three separate dataframes.<br/>
+         **Deliverable 2** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_clean_wiki_movies.ipynb">clean_wiki_movies.ipynb</a> <br/>
+         This file contains the completed code to extract and transform the Wikipedia data so that it is ready to merge with the Kaggle metadata. <br/>
+         **Deliverable 3** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_clean_kaggle_data.ipynb">ETL_clean_kaggle_data.ipynb</a><br/>
+         In this file, Kaggle metadata and MovieLens rating data are extracted and transformed, then converted into separate DataFrames. Next, the two dataframes are merges into one movies_df Dataframe. Finally, the movies_df Dataframe is merged with the MovieLens rating data DataFrame to create movies_with_ratings_df.
+         **Deliverable 4** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_create_database.ipynb>ETL_create_database</a><br/>
+         In this final deliverable, the previous code was refactors to add the movies_df Dataframe and MovieLens rating data to a SQL database. See the final row counts in the images below.<br><br/>
+  
