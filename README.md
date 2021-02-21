@@ -19,5 +19,5 @@ This repostory contains the following:
          **Deliverable 4** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_create_database.ipynb">ETL_create_database</a><br/>
          In this final deliverable, the previous code was refactors to add the movies_df Dataframe and MovieLens rating data to a SQL database. See the final row counts from PostgreSQL the images below: <br><br/>
  
-<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/movies_query.png" align=left width=400>
-<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/ratings_query.png" align=left width=400>
+<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/movies_query.png" align=left width=450>
+<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/ratings_query.png" align=left width=450>
