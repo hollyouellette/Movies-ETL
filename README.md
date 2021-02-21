@@ -18,6 +18,7 @@ This repository contains the following:
          In this file, Kaggle metadata and MovieLens rating data are extracted and transformed, then converted into separate DataFrames. Next, the two DataFrames are merged into one movies_df Dataframe. Finally, the movies_df Dataframe is merged with the MovieLens rating data DataFrame to create movies_with_ratings_df.<br><br/>
          **Deliverable 4** <a href="https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_create_database.ipynb">ETL_create_database</a><br/>
          In this final deliverable, the previous code was refactored to add the movies_df Dataframe and MovieLens rating data to a SQL database. See the final row counts from PostgreSQL the images below: <br><br/>
- 
-<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/movies_query.png" align=center width=450>
-<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/ratings_query.png" align=center width=450>
+<p align = "center"> 
+<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/movies_query.png" width=400>
+<img src="https://github.com/hollyouellette/Movies-ETL/blob/main/Resources/ratings_query.png" width=400>
+</p>
