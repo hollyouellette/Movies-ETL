@@ -10,6 +10,7 @@ This repostory contains the following:
 
    1. A Resources folder containing the raw datasets that were gathered from Wikipedia and Kaggle.<br/>
    2. Four deliverables focused on Extracting, Transforming and Loading the multiple data sources into a SQL database so tha tthe Hackathon participants have a clean dataset to work with:<br><br/>
-         **Deliverable 1** <a href\"https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_function_test.ipynb"> ETL_function_test.ipynb</a><br/>
+         **Deliverable 1** <a href\"https://github.com/hollyouellette/Movies-ETL/blob/main/ETL_function_test.ipynb"> ETL_function_test.ipynb </a>
+         <br/>
          This file contains a completed function that read in the three data files and creates three separate dataframes.
 
